@@ -85,7 +85,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Chowdri-Furkhan07/transformer-playground.git
-cd <repo-name>
+cd transformer-playground
 
 # 2. Create and activate a virtual environment
 python -m venv venv
