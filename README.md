@@ -68,6 +68,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 │   └── CLIP.png
 ├── Dockerfile
 ├── requirements.txt
+├── README.md
 └── .gitignore
 ```
 
