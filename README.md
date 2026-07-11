@@ -14,7 +14,7 @@ An industrial-grade **Streamlit** application that puts seven Hugging Face 🤗 
 
 ## Overview
 
-Transformer Playground is a multi-task ML demo app built to reflect real production practices rather than a single-file notebook script. It exposes seven Hugging Face pipelines through one Streamlit UI, with a clean separation between **presentation** (`app.py`), **inference** (`core/engine.py`), **configuration** (`core/config.py`), and **validation** (`core/utils.py`) — each independently testable and swappable.
+Transformer Playground is a multi-task ML demo app built to reflect real production practices rather than a single-file notebook script. It exposes seven Hugging Face pipelines through one Streamlit UI, with a clean separation between **presentation** (`app.py`), **inference** (`core/engine.py`), **configuration** (`core/config.py`), and **validation** (`core/utils.py`) - each independently testable and swappable.
 
 **Supported tasks:**
 
