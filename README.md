@@ -172,7 +172,9 @@ All settings are environment-variable driven with sensible defaults (see `core/c
 ## Author
 
 **Chowdri Furkhan**
-B.E. — Artificial Intelligence & Machine Learning, Vijaya Vittala Institute of Technology (VVIT), Bengaluru
+
+Data Analyst | AI&ML Engineer
+
 GitHub: [@Chowdri-Furkhan07](https://github.com/Chowdri-Furkhan07)
 
 ---
