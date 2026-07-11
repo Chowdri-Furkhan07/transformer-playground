@@ -7,7 +7,7 @@ Run locally:
     pip install -r requirements.txt
     streamlit run app.py
 
-Configuration is environment-driven — see core/config.py and .env.example.
+Configuration is environment-driven - see core/config.py and .env.example.
 This file is presentation-only: all model loading and inference logic lives
 in core/engine.py, and all input validation lives in core/utils.py.
 """
