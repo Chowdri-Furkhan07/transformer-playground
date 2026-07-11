@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Transformer Playground — an industrial-grade Streamlit front end for
+Transformer Playground - an industrial-grade Streamlit front end for
 Hugging Face Transformers pipelines covering text, vision, and speech tasks.
 
 Run locally:
