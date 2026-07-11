@@ -1,5 +1,5 @@
 """
-Unit tests for core.utils — pure functions only, so these run in milliseconds
+Unit tests for core.utils - pure functions only, so these run in milliseconds
 with no model downloads or GPU/CPU inference required.
 
 Run with:
