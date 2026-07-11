@@ -1,6 +1,6 @@
 # 🤖 Transformer Playground
 
-An industrial-grade **Streamlit** application that puts seven Hugging Face 🤗 Transformers pipelines — spanning **NLP, Computer Vision, and Speech** — behind a single, production-style interface with lazy model loading, centralized configuration, input validation, and unit-tested utilities.
+An industrial-grade **Streamlit** application that puts seven Hugging Face 🤗 Transformers pipelines - spanning **NLP, Computer Vision, and Speech** - behind a single, production-style interface with lazy model loading, centralized configuration, input validation, and unit-tested utilities.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B?logo=streamlit&logoColor=white)
