@@ -35,7 +35,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 - **Lazy, cached model loading** - every model sits behind its own `@st.cache_resource` getter, so nothing is downloaded or loaded into memory until its task is actually used, and it's reused for the life of the server process.
 - **Environment-driven configuration** - every model ID and limit (`SENTIMENT_MODEL`, `MAX_TEXT_CHARS`, `MAX_IMAGE_MB`, etc.) is overridable via environment variables, so the same codebase runs on a low-memory box or a GPU server without code changes.
 - **Automatic CPU/GPU device selection** - detects CUDA at startup and routes every pipeline to the right device.
-- **Layered architecture** — `app.py` is presentation-only; all inference logic lives in `core/engine.py` and all input validation in `core/utils.py`, which has zero Streamlit or model dependencies and is fully unit-testable.
+- **Layered architecture** - `app.py` is presentation-only; all inference logic lives in `core/engine.py` and all input validation in `core/utils.py`, which has zero Streamlit or model dependencies and is fully unit-testable.
 - **Uniform error handling** — every inference call is wrapped and re-raised as a user-safe `InferenceError`, with full tracebacks logged for operators but never leaked to the UI.
 - **Input validation & guardrails** — text length, image size/format, and audio size are all validated before hitting a model, with configurable limits.
 - **Safe summarization truncation** — long inputs are truncated against the tokenizer's true max length (instead of crashing with a low-level embedding index error) and the user is warned when truncation occurs.
