@@ -37,7 +37,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 - **Automatic CPU/GPU device selection** - detects CUDA at startup and routes every pipeline to the right device.
 - **Layered architecture** - `app.py` is presentation-only; all inference logic lives in `core/engine.py` and all input validation in `core/utils.py`, which has zero Streamlit or model dependencies and is fully unit-testable.
 - **Uniform error handling** - every inference call is wrapped and re-raised as a user-safe `InferenceError`, with full tracebacks logged for operators but never leaked to the UI.
-- **Input validation & guardrails** — text length, image size/format, and audio size are all validated before hitting a model, with configurable limits.
+- **Input validation & guardrails** - text length, image size/format, and audio size are all validated before hitting a model, with configurable limits.
 - **Safe summarization truncation** — long inputs are truncated against the tokenizer's true max length (instead of crashing with a low-level embedding index error) and the user is warned when truncation occurs.
 - **Batch-capable sentiment analysis** — score multiple lines of text in a single request.
 - **Zero-shot image classification with CLIP** — classify images against arbitrary, user-defined labels at runtime, no fixed label set required.
