@@ -79,7 +79,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 ### Prerequisites
 - Python 3.11+
 - pip
-- (Optional) NVIDIA GPU + CUDA for faster inference — the app automatically falls back to CPU
+- (Optional) NVIDIA GPU + CUDA for faster inference - the app automatically falls back to CPU
 
 ### Local Setup
 
