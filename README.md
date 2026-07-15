@@ -51,7 +51,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 
 ```
 .
-├── app.py                  # Streamlit UI — presentation layer only
+├── app.py                  # Streamlit UI - presentation layer only
 ├── core/
 │   ├── __init__.py
 │   ├── config.py            # Centralized, env-driven settings
