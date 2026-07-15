@@ -42,7 +42,7 @@ Transformer Playground is a multi-task ML demo app built to reflect real product
 - **Batch-capable sentiment analysis** - score multiple lines of text in a single request.
 - **Zero-shot image classification with CLIP** - classify images against arbitrary, user-defined labels at runtime, no fixed label set required.
 - **Session activity log & JSON/text export** - every run is logged in-session and downloadable as JSON or plain text.
-- **Containerized** — a production-ready multi-stage-friendly `Dockerfile` with `ffmpeg` for audio decoding and a built-in `HEALTHCHECK`.
+- **Containerized** - a production-ready multi-stage-friendly `Dockerfile` with `ffmpeg` for audio decoding and a built-in `HEALTHCHECK`.
 - **Unit tested** — `tests/test_utils.py` covers all validation logic with `pytest`, independent of any model weights.
 
 ---
