@@ -10,7 +10,6 @@ An industrial-grade **Streamlit** application that puts seven Hugging Face 🤗 
 ![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
----
 
 ## Overview
 
